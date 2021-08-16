@@ -2,8 +2,6 @@ import styles from './ContactList.module.scss';
 import PropTypes from 'prop-types';
 
 export const ContactList = ({ contacts, onDelete }) => {
-    console.log("Contactlist:");
-    console.log(contacts);
     return (
         <ul className={styles.listStyle}>
             {contacts.map(contact => {
