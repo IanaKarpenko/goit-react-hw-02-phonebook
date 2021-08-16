@@ -1,0 +1,28 @@
+.listStyle {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-size: larger;
+}
+
+.number {
+  margin-left: 5px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+li::before {
+  content: "";
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.deleteButton {
+  margin-left: 20px;
+  width: 50px;
+}
